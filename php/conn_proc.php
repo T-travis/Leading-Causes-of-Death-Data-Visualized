@@ -1,11 +1,11 @@
 <?php
 
-$servername = "localhost";
-$username = "icoolsho_ttacket";
-$password = "$!980-35-7774";
-$dbname = "icoolsho_ttackett";
+$servername = "************";
+$username = "***********";
+$password = "***********";
+$dbname = "*************";
 
-$dsn = 'mysql:host=localhost;dbname=icoolsho_ttackett';
+$dsn = 'mysql:host=localhost;dbname=*************';
 $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 
 try {
