@@ -27,11 +27,11 @@ $deathTypes = ["All Causes", "Alzheimer's disease", "Cancer", "Chronic liver dis
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
-  <script src="ajax.js"></script>
-  <script src="testBar.js"></script>
-  <script src="nickJS.js"></script>
-  <script src="tyler.js"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="js/ajax.js"></script>
+  <script src="js/testBar.js"></script>
+  <script src="js/nickJS.js"></script>
+  <script src="js/tyler.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
   <title>Leading Causes of Death</title>
 </head>
@@ -260,8 +260,8 @@ $deathTypes = ["All Causes", "Alzheimer's disease", "Cancer", "Chronic liver dis
 
 <div id="closing">
 <p id="closingP">Data for this website was only possible with the help of Socrata and the CDC</p>
-<img src="SOCRATA.png">
-<img src="CDC.png">
+<img src="images/SOCRATA.png">
+<img src="images/CDC.png">
 </div>
 
 </main>

@@ -21,7 +21,7 @@ var getTylerData = function (event) {
     var rows = new Array();
     $.ajax({
 
-        url: "top5aadr.php",
+        url: "php/top5aadr.php",
         data: {year: y, cause: c},
         type: "POST",
         dataType:"json",

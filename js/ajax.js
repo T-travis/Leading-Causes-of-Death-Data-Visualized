@@ -34,7 +34,7 @@ var getData = function(event) {
 
   var rows = new Array();
   $.ajax({
-      url: "getInfo.php",
+      url: "php/getInfo.php",
       data: {year: y, year2: y2, state: s, deathType: d },
       dataType:"json",
       type:"POST",

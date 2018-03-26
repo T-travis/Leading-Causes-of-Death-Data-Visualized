@@ -16,7 +16,7 @@ var radioGraph = function(event){
 
    $.ajax({
 
-         url: "topTen.php",
+         url: "php/topTen.php",
          data: {year: y, state: s},
          type: "POST",
          dataType:"json",

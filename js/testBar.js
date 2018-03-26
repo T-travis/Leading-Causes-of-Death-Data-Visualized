@@ -39,7 +39,7 @@ var getData2 = function (event) {
 
     var rows = new Array();
     $.ajax({
-        url: "getBarInfo.php",
+        url: "php/getBarInfo.php",
         data: {year: y, year2: y2, state1: s1, deathType: d, state2: s2},
         dataType: "json",
         type: "POST",
