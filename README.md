@@ -1,7 +1,7 @@
 # Leading-Causes-of-Death-Data-Visualized
 
 This is a small group project for my Web Development class.  To complete this project we used: the Socrata API 
-to get data on the leading causes of death from the CDC, mysql, php, javascript, html, and css.  Below is an 
+to get data on the leading causes of death from the CDC, Chart.js, mysql, php, javascript, html, and css.  Below is an 
 example of using the app.
 
 
